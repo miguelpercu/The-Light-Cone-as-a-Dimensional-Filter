@@ -1,0 +1,103 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{textgreek}   % por si quieres escribir \textkappa directamente
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\title{\textbf{The Hartman Effect and the Causal Coherence Limit:}\\[0.3cm]
+\large A UAT/UCP Perspective on Tunneling Time Saturation}
+
+\author{
+    Miguel \'Angel Percudani\\
+    \small Independent Researcher, Puan, Buenos Aires, Argentina\\
+    \small \texttt{miguel\_percudani@yahoo.com.ar}
+}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The Hartman effect—the saturation of the tunneling phase time to a finite, often negative, value for opaque barriers—is a well‑established consequence of standard quantum mechanics. The negative group delay is naturally explained by the principle of least action in the path‑integral formulation, where the dominant contribution comes from non‑classical trajectories that avoid the energetic cost of the barrier. We briefly review this phenomenon and then discuss how the Unified Applicable Time (UAT) and Unified Causal Principle (UCP) frameworks offer a complementary interpretation: the \textbf{saturation} of the Hartman effect is not an accident of the Schr\"odinger equation but a manifestation of a fundamental causal coherence limit that operates across all scales. This note is purely speculative and aims to connect a known quantum phenomenon with the foundational ideas of the UAT/UCP theory.
+\end{abstract}
+
+\section{The Hartman Effect in Standard Quantum Mechanics}
+
+Consider a non‑relativistic electron of energy $E$ incident on a one‑dimensional rectangular barrier of height $V_0 > E$ and width $a$. In the tunneling regime, the transmitted wave packet is reshaped such that its peak appears to leave the barrier earlier than a reference packet traveling the same distance in free space~\cite{Hartman, Winful}. The phase time (or group delay) is given by
+\begin{equation}
+    \tau_\phi = \hbar \frac{d\theta}{dE},
+\end{equation}
+where $\theta$ is the phase of the transmission amplitude. For a symmetric rectangular barrier, the exact expression leads, for opaque barriers ($\kappa a \gg 1$), to a saturated value
+\begin{equation}
+    \tau_\phi \approx -\frac{2m}{\hbar k \kappa},
+\end{equation}
+which is independent of the barrier width. Using typical parameters ($E = 0.5$ eV, $V_0 = 0.8$ eV, electron mass), the phase time evaluates to approximately $-22$ fs, many orders of magnitude larger than the Planck time ($\sim 10^{-44}$ s) yet still infinitesimal on everyday scales.
+
+The negative group delay does not imply a violation of causality. It is a consequence of the reshaping of the wave packet: the earlier part of the incident wave packet excites the barrier, which then emits particles that constructively interfere at the front of the transmitted pulse, producing an effective advancement. In the path‑integral language, the dominant Feynman paths are those that effectively bypass the barrier, resulting in a lower total action~\cite{Feynman}.
+
+A previous numerical simulation by the author~\cite{minima_accion} confirmed this behavior, reproducing the negative transit time for a Gaussian wave packet traversing a potential barrier and showing that the magnitude of the advancement never accumulates to threaten macroscopic causality.
+
+\section{A UAT/UCP Reinterpretation: Saturation as a Manifestation of the Causal Limit}
+
+The UAT/UCP framework~\cite{UAT_fundamental, unified_action} postulates that the observable flow of time is an emergent phenomenon regulated by a fundamental causal coherence constant $\kappa_{\text{crit}} = 10^{-78}$ (Planck scale) and $\kappa_{\text{crit}}^{\text{(macro)}} = 4.978$ (Ivancho limit). The quantum brake $k_{\text{early}} = 0.967$ and the geometric invariant $R_{\text{geom}} = 0.2792$ govern the transition from a full 8‑dimensional phase space to observable 3D~$+$~T spacetime.
+
+In this framework, a small, localized negative time fluctuation —such as the one observed in tunneling— can be understood as a \textbf{micro‑excursion into the Bit~0 domain}, the unmanifested potential where the geometric projection $2R_{\text{geom}}$ has not yet been applied. The particle, following the path of least action, temporarily borrows ``time'' from the causal substrate, resulting in an effective advancement. Because the energy involved is minuscule and the duration is on the order of femtoseconds, the causal filter (the light cone interpreted as a dimensional membrane~\cite{light_cone_filter}) permits this excursion without entering the Thermodynamic Overdrive regime ($\kappa/k > 4.5$).
+
+However, \textbf{the Hartman effect saturates}. The negative time never grows unbounded, no matter how wide the barrier becomes. Within the UAT/UCP picture, this saturation is not a mathematical accident of the Schr\"odinger equation; it is the signature of the causal membrane imposing a hard limit on how much ``time'' can be borrowed from Bit~0 before the system would be forced into an Overdrive collapse. The thermodynamic guillotine mechanism described in~\cite{causal_saturation} ensures that any fluctuation exceeding the permissible threshold is purged as thermal noise, exactly as the $7\%$ calibration margin dictates.
+
+Thus, the Overdrive ($\kappa/k \approx 5.14$) is not the \textbf{cause} of the negative tunneling time — which is fully explained by the principle of least action — but the \textbf{guardian} that prevents such temporal excursions from destabilising the global causal fabric. The saturation of the Hartman effect is, in this sense, a phenomenological imprint of the causal coherence limit.
+
+\section{Conclusion}
+
+The Hartman effect provides a concrete, experimentally tested example of a negative transit time. Standard quantum mechanics already guarantees that this negativity saturates and does not threaten causality. The UAT/UCP framework offers a complementary narrative: the saturation is the manifestation of a deeper causal‑coherence law that governs the universe at all scales. The causal membrane allows small excursions into Bit~0, but the Overdrive threshold ensures they never escalate into macroscopic paradoxes.
+
+\textbf{This is a speculative conceptual note.} It does not claim to correct the standard quantum mechanical explanation of the Hartman effect, nor does it provide experimental evidence for the UAT/UCP framework. It is placed in the public domain as a transparent record of an exploratory idea.
+
+\begin{center}
+\rule{0.5\textwidth}{0.5pt}\\[0.2cm]
+\textit{Least action selects the path.}\\
+\textit{The causal membrane sets the limit.}\\
+\textit{The saturation of tunneling time is the proof of the boundary.}\\
+\textit{Speculative. Consistent.}
+\end{center}
+
+\begin{thebibliography}{9}
+
+\bibitem{Hartman}
+T.~E.~Hartman, \textit{Tunneling of a wave packet}, J. Appl. Phys. 33, 3427 (1962).
+
+\bibitem{Winful}
+H.~G.~Winful, \textit{Tunneling time, the Hartman effect, and superluminality: A proposed resolution of an old paradox}, Phys. Rep. 436, 1–69 (2006).
+
+\bibitem{Feynman}
+R.~P.~Feynman and A.~R.~Hibbs, \textit{Quantum Mechanics and Path Integrals}, McGraw-Hill (1965).
+
+\bibitem{minima_accion}
+M.~A.~Percudani, \textit{Quantum Tunneling Time and the Principle of Least Action: A Path-Integral Perspective with a Speculative UAT/UPC Extension}, Zenodo, 2026. DOI: \texttt{10.5281/zenodo.20498679}.
+
+\bibitem{light_cone_filter}
+M.~A.~Percudani, \textit{The Light Cone as a Dimensional Filter: A Speculative Interpretation within the UAT/UCP Framework}, Zenodo, 2026.
+
+\bibitem{causal_saturation}
+M.~A.~Percudani, \textit{Causal Saturation as a Speculative Phenomenological Model: Exploring the Thermodynamic Guillotine within the UAT/UCP Framework}, Zenodo, 2026. DOI: \texttt{10.5281/zenodo.21581050}.
+
+\bibitem{UAT_fundamental}
+M.~A.~Percudani, \textit{Universal Applied Time (UAT/UCP): A Fundamental Theory of Cosmology from First Principles}, Zenodo, 2024.
+
+\bibitem{unified_action}
+M.~A.~Percudani, \textit{Unified Action for the UAT/UCP Framework}, Zenodo, 2026. DOI: \texttt{10.5281/zenodo.21433360}.
+
+\end{thebibliography}
+
+\end{document}

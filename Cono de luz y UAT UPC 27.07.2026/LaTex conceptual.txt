@@ -1,0 +1,158 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\title{\textbf{The Light Cone as a Dimensional Filter:}\\[0.3cm]
+\large A Speculative Interpretation within the UAT/UCP Framework}
+
+\author{
+    Miguel \'Angel Percudani\\
+    \small Independent Researcher, Puan, Buenos Aires, Argentina\\
+    \small \texttt{miguel\_percudani@yahoo.com.ar}
+}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We propose a speculative reinterpretation of the relativistic light cone as an active \textbf{dimensional filter} that separates the unmanifested potential (Bit~0) from observable three-dimensional reality (Bit~1). Within the Unified Applicable Time (UAT) and Unified Causal Principle (UCP) framework, the speed of light is not merely a kinematic limit but the processing rate of a causal membrane that condenses quantum superpositions into classical events. This interpretation provides a mechanistic resolution to the measurement problem in quantum mechanics without invoking observer consciousness, and it unifies the role of the causal overflow ($\varepsilon = 3.3\%$) and the thermal calibration margin ($7\%$) as thermodynamic costs of existence. The note is purely conceptual; no experimental validation is claimed. It is presented as a record of an exploratory idea that is internally consistent with the UAT/UCP constants but remains speculative.
+\end{abstract}
+
+\section{Introduction}
+
+In the special and general theories of relativity, the light cone is defined as the set of all events that can be causally connected to a given event. It is a passive geometric structure: the boundary of what can influence or be influenced by a point in spacetime. This note questions the ontological status of the light cone and proposes that, within the UAT/UCP framework~\cite{UAT_fundamental, unified_action}, it plays a far more active role.
+
+We hypothesize that the light cone is the operational interface that \textbf{filters} the transition from potentiality (Bit~0) to actuality (Bit~1). In this picture, the speed of light $c$ is not a fundamental speed limit but the processing rate of a dimensional filter. This reinterpretation dissolves several conceptual puzzles in quantum mechanics and connects naturally with the constants already derived from the UAT/UCP architecture.
+
+In earlier conceptual explorations, we introduced the heuristic notion of a binary universe in which Bit~0 (unmanifested potential, non‑baryonic substrate) and Bit~1 (manifest observable reality, baryonic matter) coexist. The present note refines that idea by identifying the light cone as the operational filter that regulates the transition between these two regimes, without relying on the specific numerical parameters of the earlier formulation.
+
+\textbf{Important:} This document is a speculative theoretical exercise. It does not claim to correct Einstein’s relativity, nor does it provide experimental evidence for the UAT/UCP framework. It is offered as a transparent record of an exploratory idea.
+
+\section{The Light Cone as a Dimensional Filter}
+
+\subsection{Bit~0 and Bit~1 in the UAT/UCP Framework}
+
+The UAT/UCP framework describes physical reality as the result of the interference of eight phase fronts with a quantum brake step $\Delta\theta = 43.515^\circ$. The geometric residue $R_{\text{geom}} = 0.279182$~\cite{metricas} and the quantum brake $k_{\text{early}} = 0.967$ govern the transition from a full 8‑dimensional phase space to observable 3D~$+$~T spacetime.
+
+In a binary description, we can label:
+\begin{itemize}[nosep]
+    \item \textbf{Bit~0:} The unmanifested domain, where the phase fronts are still in full superposition and the geometric projection $2R_{\text{geom}}$ has not yet been applied. This corresponds to the causal overflow $\varepsilon = 1 - k_{\text{early}} = 3.3\%$, the fraction of each causal cycle that remains unintegrated into observable reality.
+    \item \textbf{Bit~1:} The manifested, observable three-dimensional world. The projection $2R_{\text{geom}} = 0.558364$ converts pure resonances into observable masses ($M_{\text{obs}}(4) = 215.6$~MeV, $M_{\text{obs}}(5) = 1.71$~TeV, $M_{\text{obs}}(6) = 682$~TeV) and establishes the spacetime coordinates that we measure in the laboratory.
+\end{itemize}
+
+\subsection{The Role of the Light Cone}
+
+In the standard relativistic picture, the light cone is a geometric consequence of the metric. We propose to invert this logic: \textbf{the light cone is the causal mechanism that enforces the Bit~0 $\to$ Bit~1 transition.}
+
+Every electromagnetic interaction forces a local crossing of the filter. The tip of the cone defines the present moment, and the surface of the cone is the boundary across which potential states are condensed into a definite three-dimensional event. The speed $c$ is the maximum rate at which the membrane can process this condensation without entering the Thermodynamic Overdrive regime ($\kappa/k > 4.5$)~\cite{UAT_Lagrangian}.
+
+\subsection{The Light Cone as the Boundary of Our Dimension}
+
+A crucial consequence of this reinterpretation is that the light cone of Einstein does not merely describe the causal structure of spacetime; it also marks the \textbf{boundary of our dimension}. Any physical process whose causal load exceeds the Ivancho limit ($\kappa_{\text{crit}} = 4.978$) or enters the Thermodynamic Overdrive ($\kappa/k \gtrsim 5.14$) cannot be processed by the filter. Such processes remain outside the cone, in the Bit~0 domain, and are not part of observable three‑dimensional reality.
+
+In other words:
+\begin{itemize}[nosep]
+    \item \textbf{Inside the cone:} Bit~1. Observable, baryonic, three‑dimensional. Coherence is maintained below the stability threshold.
+    \item \textbf{Outside the cone:} Bit~0. Unmanifested potential, non‑baryonic substrate. The phase fronts remain in full superposition, awaiting a future cycle of the filter.
+\end{itemize}
+The invariant $R_{\text{geom}} = 0.2792$ measures the fraction of the total phase coherence that successfully passes through the filter in each cycle. The remainder —the sterile dispersion of the planar 2D configuration, the $3.3\%$ causal overflow, and the $7\%$ thermal dissipation— constitutes the information that the cone cannot integrate without saturating.
+
+\section{Resolution of the Quantum Measurement Problem}
+
+This interpretation provides a mechanistic, observer‑independent resolution to the measurement problem of quantum mechanics.
+
+\subsection{The Double‑Slit Experiment}
+
+Consider a single photon passing through a double slit:
+\begin{itemize}[nosep]
+    \item \textbf{Without light (no measurement):} the photon has not yet been forced to cross the filter. It remains in the Bit~0 regime, described by a coherent superposition of paths. No three‑dimensional trajectory is defined because no electromagnetic interaction has anchored it to the spacetime coordinates.
+    \item \textbf{With light (measurement):} the act of detecting the photon requires an electromagnetic interaction. This interaction forces the system to pass through the light‑cone filter, collapsing the superposition into a single, definite event in 3D (Bit~1).
+\end{itemize}
+The wave function does not collapse because of a conscious observer; it collapses because the detection apparatus imposes an electromagnetic boundary condition that the membrane must process.
+
+\subsection{The Thermal Cost of Observation}
+
+The $7\%$ thermal calibration margin $\phi_*/\eta = 0.07$~\cite{seven_percent} is the single free parameter of the UAT/UCP framework. In this picture, it acquires a direct operational meaning: \textbf{every act of measurement dissipates $7\%$ of the available coherence as thermal noise}. This is the irreducible cost of forcing a Bit~0 state into a Bit~1 event. The remaining $93\%$ of the coherence is preserved as the observed classical outcome.
+
+\section{Connection with UAT/UCP Constants}
+
+Table~\ref{tab:constants} summarizes how the standard UAT/UCP constants are reinterpreted under the light‑cone‑as‑filter hypothesis.
+
+\begin{table}[h]
+\centering
+\caption{Reinterpretation of UAT/UCP constants in the dimensional‑filter picture.}
+\label{tab:constants}
+\begin{tabular}{l c c}
+\toprule
+\textbf{Constant} & \textbf{Original meaning} & \textbf{Filter‑based interpretation} \\
+\midrule
+$k_{\text{early}} = 0.967$ & Quantum brake (early universe) & Efficiency of the filter (96.7\% processed) \\
+$\varepsilon = 3.3\%$ & Causal overflow (angular deficit) & Fraction of Bit~0 that cannot be integrated into 3D \\
+$R_{\text{geom}} = 0.2792$ & 8‑phase interference residue & Amplitude of the filtered coherent signal \\
+$2R_{\text{geom}} = 0.5584$ & Geometric projection factor & Conversion factor from Bit~0 to Bit~1 masses \\
+$7\%$ thermal margin & Calibration of $\phi_*/\eta$ & Fraction of energy lost as heat per filter operation \\
+$\kappa/k \approx 5.14$ & Thermodynamic Overdrive & Saturation point of the filter (maximum processing rate) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Falsifiability and Limitations}
+
+This hypothesis is, at present, \textbf{not} empirically verified. It makes no quantitative prediction that can be tested with current technology beyond those already contained in the UAT/UCP framework (e.g., the resonance at 1.71~TeV, the QCD confinement scale, the 6.18~Hz causal overflow). It is presented solely as a conceptual scaffolding that may guide future theoretical development.
+
+We explicitly acknowledge:
+\begin{itemize}[nosep]
+    \item The binary language (Bit~0 / Bit~1) is an analogy, not a formal computational model.
+    \item No derivation from the unified action $S_{\text{total}} = S_{\text{bulk}} + S_{\text{boundary}} + S_{\text{coherence}}$ is provided.
+    \item The reinterpretation of $c$ as a processing rate is speculative and does not modify the mathematical structure of relativity.
+\end{itemize}
+
+\section{Conclusion}
+
+We have proposed a speculative conceptual note in which the relativistic light cone is reinterpreted as a dimensional filter that separates unmanifested potential (Bit~0) from observable three‑dimensional reality (Bit~1). Within the UAT/UCP framework, this filter is governed by the same constants that determine cosmological expansion, the QCD scale, and the new physics masses. The picture provides a mechanistic resolution to the measurement problem, assigns a clear thermodynamic cost to every observation, and identifies the light cone as the boundary of our dimension.
+
+\textbf{This is a curiosity, not a validation.} It is placed in the public domain as a transparent record of an exploratory idea that may, or may not, prove fruitful.
+
+\begin{center}
+\rule{0.5\textwidth}{0.5pt}\\[0.2cm]
+\textit{The light cone does not describe spacetime; it filters reality.}\\
+\textit{Inside the cone: Bit~1, the observable world.}\\
+\textit{Outside the cone: Bit~0, the unmanifested potential.}\\
+\textit{Speculative. Consistent. Falsifiable in principle.}\\
+\textit{Experiment will decide.}
+\end{center}
+
+\begin{thebibliography}{9}
+
+\bibitem{UAT_fundamental}
+M.~A.~Percudani, \textit{Universal Applied Time (UAT/UCP): A Fundamental Theory of Cosmology from First Principles}, Zenodo, 2024.
+
+\bibitem{unified_action}
+M.~A.~Percudani, \textit{Unified Action for the UAT/UCP Framework}, Zenodo, 2026. DOI: \texttt{10.5281/zenodo.21433360}.
+
+\bibitem{metricas}
+M.~A.~Percudani, \textit{Diferenciación de Métricas Fundamentales en el Modelo Percudani}, Zenodo, 2025.
+
+\bibitem{UAT_Lagrangian}
+M.~A.~Percudani, \textit{The UAT Lagrangian: Derivation of the Quantum Braking Action}, Zenodo, 2026.
+
+\bibitem{seven_percent}
+M.~A.~Percudani, \textit{On the Nature of the 7\% Thermal Calibration Margin}, Zenodo, 2025. DOI: \texttt{10.5281/zenodo.21211964}.
+
+\end{thebibliography}
+
+\end{document}
